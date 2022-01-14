@@ -7,6 +7,8 @@ public class CheckSumBuilder {
     }
     
     // 计算并获取md5值
+    // https://udomain.dl.sourceforge.net/project/geoserver/GeoServer/2.20.1/extensions/geoserver-2.20.1-vectortiles-plugin.zip
+    // https://udomain.dl.sourceforge.net/project/geoserver/GeoServer/2.20.1/geoserver-2.20.1-bin.zip
     public static String getMD5(String requestBody) {
         return encode("md5", requestBody);
     }
